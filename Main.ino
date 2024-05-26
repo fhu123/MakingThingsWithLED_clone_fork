@@ -28,8 +28,8 @@
 #define LED_TYPE    WS2812B
 #define COLOR_ORDER GRB
 
-char* ssid = "FHUHOME";
-char* password = "Umts2017Umts2017";
+char* ssid = "SSID";
+char* password = "password";
 
 CRGB leds[NUM_LEDS];
 uint8_t gHue = 0; // Global hue value for color cycling
